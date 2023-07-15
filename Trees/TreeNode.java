@@ -1,11 +1,11 @@
 package Trees;
 
 public class TreeNode {
-    private int val;
+    public int val;
     public TreeNode left;
     public TreeNode right;
 
-    TreeNode(int val) {
+    public TreeNode(int val) {
         this.val = val;
         this.left = null;
         this.right = null;
